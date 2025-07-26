@@ -22,7 +22,7 @@ pipeline {
             }
         }
 
-        stage('Tests') {
+        stage('Testss') {
             when {
                 expression { return params.RUN_TESTS }
             }
