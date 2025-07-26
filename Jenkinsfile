@@ -15,7 +15,7 @@ pipeline {
     }
 
     stages {
-        stage('Builds') {
+        stage('Buildss') {
             steps {
                 echo "Building ${params.APP_NAME} for ${params.ENV} environment..."
                 sh 'echo "Build step executed."'
