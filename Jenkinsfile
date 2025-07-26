@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        Label 'Node-1'
+        label 'Node-1'
     }
 
     parameters {
